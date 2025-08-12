@@ -34,10 +34,20 @@ iframe {
 a {
     display: block;
     margin: 10px;
+
 }
+
+img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.438);
+    transition: 0.5s;
+    border: 1px solid white;
+}
+
 img {
     height: 60px;
     width: 60px;
     border-radius: 50%;
     box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
 }
