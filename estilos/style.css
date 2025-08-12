@@ -13,13 +13,18 @@ main {
 }
 
 iframe {
-    height: 645px;
-    width: 315px;
+    margin-top: 79px;
+    margin-left: 21px;
+    height: 475px;
+    width: 270px;
 }
 
 #telefone {
     position: absolute;
-
+    height: 645px;
+    width: 315px;
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
     left: 50%;
     top: 50%;
 
