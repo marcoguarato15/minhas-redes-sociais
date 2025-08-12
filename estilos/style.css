@@ -1,0 +1,43 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+iframe {
+    height: 645px;
+    width: 315px;
+}
+
+#telefone {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#icones {
+    position: absolute;
+    right: 0px;
+}
+
+a {
+    display: block;
+    margin: 10px;
+}
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
